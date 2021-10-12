@@ -1,5 +1,5 @@
 {% set name = "types-backports_abc" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-backports_abc-{{ version }}.tar.gz
-  sha256: 7d71215c256dbe5e5376a304bdbed51476852053128eb56f9e541d5591496d6b
+  sha256: a4346efa9ffb1ecf692333b1adb8b2d997268007c98b94d44d5956d7cabadd69
 
 build:
   number: 0
